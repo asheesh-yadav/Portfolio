@@ -1,0 +1,141 @@
+@media(max-width:1000px){
+  .left{
+    width: 0%;
+    transition: 0.3s ease-in ;
+  }
+  .right{
+    width: 100%;
+  }
+  nav .left-menue{
+    display: initial;
+  }
+  .nav-bar{
+    justify-content:space-between;
+}
+.nav-bar ul{
+  transform: translateX(-200%);
+  flex-direction: column;
+  align-items: center;
+  background-color: #152032;
+  width: 100%;
+  height: 285px;
+  gap: 30px;
+  position: absolute;
+  left: 0;
+  top: 62px;
+  transition: 0.5s linear;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 5px 10px #040C15;
+}
+.left-side{
+  flex-wrap: wrap;
+  gap:60px;
+  }
+  .right-side{
+    flex-wrap: wrap;
+    gap:60px;
+  }
+  .right-side-content {
+    width: 80vw;
+    font-size: 0.8rem;
+    height: 115px;
+    margin-bottom: 15px;
+  }
+  /* about  */
+  .about {
+    background-color: #152032;
+    color: #fefefe;
+    height: auto;
+    clip-path: none;
+    padding-bottom: 40px;
+}
+
+.about-me {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  margin-left: 0;
+}
+.about-para {
+  margin-right: 10%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}
+
+
+/* project */
+
+
+.card1 {
+  height: auto;
+  width: 400px;
+  overflow: hidden;
+  padding-bottom: 16px;
+}
+.card1-bottom {
+  height: auto;
+  padding-bottom: 15px;
+}
+
+/* contacts */
+form {
+  width: 90%;
+  display: flex;
+  align-items: center;
+}
+
+.contact {
+  height: auto;
+  padding-bottom: 10px;
+}
+.name-phone {
+  flex-direction: column;
+  gap: 14px;
+}
+.n-p {
+  width: 100%;
+}
+
+  .experince-content{
+    padding: 50px 0px 50px 0px;
+    height: auto;
+    gap: 70px;
+  }
+
+} 
+
+
+
+ /* meadia query for 1st page*/ 
+
+@media(max-width:1000px){
+  .right-content h1 {
+    font-size: 9vw;
+}
+.right-content h3 {
+  color: white;
+  font-size: 4vw;
+}
+.right-content p {
+  line-height: 5vw;
+  font-size: 3vw;
+}
+.right-content-box button {
+  font-size: 4vw;
+}
+.right-content {
+  height: auto;
+  width: auto;
+  position: absolute;
+  z-index: 2;
+  top: 30%;
+  right: 8%;
+  left: 8%;
+  padding-right: 10px;
+  box-shadow: 0 0 7px rgba(255, 255, 255, 0.831);
+  backdrop-filter: blur(10px);
+}
+}
